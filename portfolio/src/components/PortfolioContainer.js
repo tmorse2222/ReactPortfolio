@@ -27,8 +27,20 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            <div>
+                <header>
+                    <h1>Tyler M.</h1>
+                </header>
+                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
+            <div>
             {renderPage()}
+            </div>
+            <div>
+                <footer>
+                    <p>© 2021 Tyler M.</p>
+                </footer>
+            </div>
         </div>
     );
 }
