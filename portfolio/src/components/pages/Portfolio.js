@@ -1,5 +1,4 @@
 import React from 'react';
-import a from '../images/a.png';
 
 export default function Portfolio() {
     return (
@@ -7,7 +6,7 @@ export default function Portfolio() {
             <h2 id="portfolio">Portfolio</h2>
             <div>
                 <h3>Sequelize E-Commerce Back-End</h3>
-                <image src={a} alt="Project 11"></image>
+                <img src={require('./images/project1.jpg')} alt="Sequelize E-Commerce Back-End" style={{ height: 300, width: 475}}></img>
                 <p>
                     Repository: <a href="https://github.com/tmorse2222/E-CommerceBackEnd"> GitHub</a>
                 </p>
