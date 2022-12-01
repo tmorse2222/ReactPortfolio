@@ -38,7 +38,9 @@ export default function PortfolioContainer() {
             </div>
             <div>
                 <footer>
-                    <p>© 2021 Tyler M.</p>
+                    <a href="https://github.com/tmorse2222"> Github </a>
+                    <a href="https://www.linkedin.com/in/tyler-morse-ab8069241/"> LinkedIn </a>
+                    <a href="https://www.facebook.com/profile.php?id=100081851958431"> Facebook </a>
                 </footer>
             </div>
         </div>
