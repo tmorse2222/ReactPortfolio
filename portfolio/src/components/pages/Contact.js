@@ -52,23 +52,23 @@ function Contact() {
     };
 
     return (
-        <section>
-            <h2 id="contact">Contact Me</h2>
-            <form id="contact-form" onSubmit={emailValidation}>
-                <div>
+        <section className='row' style={{paddingTop: 5}}>
+            <h2 id="contact" className='col-md-8 offset-md-2'>Contact Me</h2>
+            <form className='row card' id="contact-form" onSubmit={emailValidation}>
+                <div className='col-md-8 offset-md-2 card'>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" onBlur={handleBlur} defaultValue={name} onChange={handleFormChange} />
                 </div>
-                <div>
+                <div className='col-md-8 offset-md-2 card'>
                     <label htmlFor="email">Email address:</label>
                     <input type="email" name="email" onBlur={handleBlur} defaultValue={email} onChange={handleFormChange} />
                 </div>
-                <div>
+                <div className='col-md-8 offset-md-2 card'>
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" onBlur={handleBlur} defaultValue={message} onChange={handleFormChange} />
                 </div>
                 {errorMessage && (
-                    <div>
+                    <div className='col-md-8 offset-md-2 card'>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}

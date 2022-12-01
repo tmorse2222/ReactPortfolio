@@ -39,10 +39,10 @@ export default function PortfolioContainer() {
             {renderPage()}
             </div>
             <div>
-                <footer>
-                    <a href="https://github.com/tmorse2222"> Github </a>
-                    <a href="https://www.linkedin.com/in/tyler-morse-ab8069241/"> LinkedIn </a>
-                    <a href="https://www.facebook.com/profile.php?id=100081851958431"> Facebook </a>
+                <footer className="row">
+                    <a className='col-md-4' href="https://github.com/tmorse2222"> Github </a>
+                    <a className='col-md-4' href="https://www.linkedin.com/in/tyler-morse-ab8069241/"> LinkedIn </a>
+                    <a className='col-md-4' href="https://www.facebook.com/profile.php?id=100081851958431"> Facebook </a>
                 </footer>
             </div>
         </div>
